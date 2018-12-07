@@ -45,7 +45,7 @@ public class Stories extends javax.swing.JFrame {
         jButton1.setText("Upvote/DownVote");
 
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jButton2.setText("Feedback");
+        jButton2.setText("Comment");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -100,7 +100,7 @@ public class Stories extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        Feedback q=new Feedback();
+        Comment q=new Comment();
         q.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
