@@ -47,9 +47,9 @@ public class Comment extends javax.swing.JFrame {
         try {
             MyconObj=DriverManager.getConnection("jdbc:derby://localhost:1527/Quora");
             MystaObj=MyconObj.createStatement();
-            cmid = UUID.randomUUID().toString();
-            usid = UUID.randomUUID().toString();
-            ptid = UUID.randomUUID().toString();
+            cmid = "l123";
+            usid = "L132";
+            ptid = "L1643";
             nLike++;
             //MyresObj = MystaObj.executeQuery(str1);
         } catch (SQLException ex) {
@@ -147,7 +147,9 @@ public class Comment extends javax.swing.JFrame {
         // TODO add your handling code here:
         try
         {
-        PreparedStatement ad=MyconObj.prepareStatement("insert Into APP.COMMMENT values (?,?,?,?,?)");
+            MyconObj=DriverManager.getConnection("jdbc:derby://localhost:1527/Quora");
+            MystaObj=MyconObj.createStatement();
+        PreparedStatement ad=MyconObj.prepareStatement("insert Into APP.Comment values (?,?,?,?,?)");
         ad.setString(1, cmid);
         ad.setString(2, usid);
         ad.setString(3, ptid);
