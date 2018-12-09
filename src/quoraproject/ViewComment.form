@@ -26,7 +26,7 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="list" max="32767" attributes="0"/>
+                  <Component id="cmlist" max="32767" attributes="0"/>
                   <Group type="102" attributes="0">
                       <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="437" max="-2" attributes="0"/>
@@ -46,7 +46,7 @@
                   <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-              <Component id="list" min="-2" pref="322" max="-2" attributes="0"/>
+              <Component id="cmlist" min="-2" pref="322" max="-2" attributes="0"/>
               <EmptySpace pref="54" max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -72,9 +72,9 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="java.awt.TextArea" name="list">
+    <Component class="java.awt.TextArea" name="cmlist">
       <Events>
-        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="listComponentHidden"/>
+        <EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="cmlistComponentHidden"/>
       </Events>
     </Component>
   </SubComponents>

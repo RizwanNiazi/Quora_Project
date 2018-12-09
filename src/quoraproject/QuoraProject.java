@@ -16,7 +16,7 @@ public class QuoraProject {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Quora q=new Quora();
+        Stories q=new Stories();
         q.setVisible(true);
     }
     
